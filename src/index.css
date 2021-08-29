@@ -1,0 +1,396 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html {
+    font-size: 62%;
+}
+a {
+    text-decoration: none;
+    color: azure;
+}
+/* -------------------------------NavBar Style Starts
+                                          -------------------------------- */
+.navbar_bg {
+    background-color: rgb(201, 192, 192);
+    padding: 2rem 0;
+    z-index: 99;
+}
+.navbar-brand {
+    font-size: 2.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar li {
+    padding: 0 2rem;
+}
+.navbar li a {
+    font-size: 1.7rem;
+    font-weight: lighter;
+    position: relative;
+}
+.navbar li a:hover {
+    color: blueviolet !important;
+    text-shadow: 0px 2px 1px #ff18ba;
+}
+.btn_style {
+    width: 12rem;
+    height: 4rem;
+    border-radius: 2rem;
+    color: snow;
+    background-color: rgb(96, 13, 190);
+    text-transform: uppercase;
+}
+.btn_style:hover {
+    border: 0.1rem solid rgb(96, 13, 190);
+    background-color: transparent;
+    color: rgb(113, 20, 220);
+}
+.secound_btn_style {
+    margin-left: 2rem;
+    border: 0.1rem solid rgb(113, 20, 220);
+    background-color: transparent;
+    color: rgb(113, 20, 220);
+}
+.secound_btn_style:hover {
+    color: snow;
+    background-color: rgb(96, 13, 190);
+}
+
+/* -------------------------------@ NavBar Style Ends
+                                          -------------------------------- */
+
+/* -------------------------------@ Left Side Section Starts
+                                          -------------------------------- */
+header {
+    background-color: rgb(201, 192, 192);
+    min-height: 100vh;
+    width: 100%;
+}
+.main-hero-container {
+    height: 80vh;
+    display: flex;
+}
+.main-hero-container h1 {
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.main_para {
+    font-size: 1.5rem;
+    color: rgb(97, 97, 97);
+    margin: 3rem 0 1rem 0;
+    font-weight: lighter;
+    width: 75%;
+}
+.main-hero-container h3 {
+    font-weight: lighter;
+}
+.input-group {
+    position: relative !important;
+}
+.form-control-text {
+    position: absolute;
+    height: 5rem;
+    border: none;
+    outline: none;
+    padding-left: 1.5rem !important;
+    font-size: 1.4rem;
+    font-weight: lighter;
+}
+.input-group-btn {
+    position: absolute;
+    right: 26%;
+    top: 0.5rem;
+    color: whitesmoke;
+    background-color: rgb(107, 35, 224);
+    height: 4rem;
+    width: 25%;
+    border-radius: 2.5rem !important;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* -------------------------------@ Left Side Section Ends
+                                          -------------------------------- */
+
+/* -------------------------------@ Right Side Section Starts
+                                          -------------------------------- */
+.main-herosection-images {
+    position: relative;
+}
+.main-herosection-images img {
+    width: 55%;
+    height: 75%;
+    margin-top: 10rem;
+    box-shadow: 2px 3px 5px 1px rgba(86, 72, 72, 0.75);
+    border-radius: 1.5rem;
+    position: absolute;
+}
+.main-herosection-images .main-hero-img2 {
+    position: absolute;
+    width: 40%;
+    height: 45%;
+    left: 57%;
+    top: -25%;
+    border-radius: 100%;
+}
+/* -------------------------------@ Right Side Section End
+                                          -------------------------------- */
+
+/* -------------------------------@ Work Section Start
+                                          -------------------------------- */
+.work-container {
+    width: 85vw;
+    /* height: 80vh; */
+    padding: 3rem;
+    box-shadow: 2px 3px 5px 1px rgba(86, 72, 72, 0.75);
+    margin-top: -7rem;
+    background-color: whitesmoke;
+    border-radius: 1rem;
+}
+.work-container .main-heading {
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 0.8rem;
+    word-spacing: 0.8rem;
+}
+.work-container-subdiv {
+    padding: 0 2rem;
+}
+.work-container-subdiv .sub-Heading {
+    font-size: 2rem;
+    font-weight: normal;
+}
+.fontawesome-style {
+    font-size: 5rem;
+    color: rgb(199, 15, 199);
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    background-color: rgb(178, 185, 189);
+    display: grid;
+    place-items: center;
+    align-items: center;
+    text-align: center;
+    margin: 2.5rem auto;
+    box-shadow: 2px 3px 5px 1px rgba(86, 72, 72, 0.75);
+}
+/* -------------------------------@ Work Section Start Ends
+                                          -------------------------------- */
+/* -------------------------------@ About Us Section Start
+                                          -------------------------------- */
+.our-servises {
+    margin: 4rem 0;
+}
+.our-servises img {
+    width: 50%;
+    height: 75%;
+    margin-top: 10rem;
+    border-radius: 1.5rem;
+    box-shadow: 2px 3px 5px 1px rgba(86, 72, 72, 0.75);
+}
+.our-service-list .heading {
+    margin-top: 2.5rem;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.our-services-info {
+    margin-top: 4rem;
+}
+.our-servises .our-services-number {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 0.1rem solid rgb(106, 11, 214);
+    color: rgb(106, 11, 214);
+    font-size: 1.5rem;
+    display: grid;
+    place-items: center;
+}
+.our-services-data {
+    padding-left: 2rem;
+}
+.our-servises .our-services-data p {
+    margin: 1rem 0;
+}
+/* 2nd Section */
+.our-service-rightside-content {
+    padding-left: 8rem;
+}
+.our-servises-rightside {
+    margin-top: 7rem;
+}
+/* -------------------------------@ About Us Section Ends
+                                          -------------------------------- */
+/* -------------------------------@ Services Section Starts
+                                          -------------------------------- */
+.services-main-container {
+    margin-top: 5rem;
+    padding: 5rem;
+}
+.services-main-container .main_para {
+    margin: 3rem 0 3rem 0;
+}
+.services-main-container .work-container-subdiv {
+    box-shadow: 2px 3px 5px 1px rgba(86, 72, 72, 0.75);
+    padding-left: 5rem;
+}
+.services-main-container .work-container-subdiv .fontawesome-style {
+    text-align: left;
+    margin: 2rem 0;
+    font-size: 2rem;
+    width: 4rem;
+    height: 4rem;
+}
+.services-main-container .work-container-subdiv:hover {
+    background-color: rgb(193, 236, 236);
+    cursor: pointer;
+}
+.services-main-container .work-container-subdiv:hover > .fontawesome-style {
+    background-color: rgb(252, 252, 252);
+}
+.work-container-subdiv .main_para {
+    width: 100%;
+}
+@media (min-width: 1400px) {
+    .service-container .col-xxl-4 {
+        flex: 0 0 auto;
+        width: 30% !important;
+        margin: auto;
+        border-radius: 1rem;
+    }
+}
+@media (min-width: 992px) {
+    .service-container .col-lg-4 {
+        flex: 0 0 auto;
+        width: 30% !important;
+        margin: 2.5rem auto;
+        border-radius: 1rem;
+    }
+}
+@media (min-width: 620px) {
+    .service-container .col-lg-4 {
+        flex: 0 0 auto;
+        width: 30% !important;
+        margin: 2.5rem auto;
+        border-radius: 1rem;
+    }
+}
+/* -------------------------------@ Services Section Ends
+                                          -------------------------------- */
+/* -------------------------------@ Contact Section Starts
+                                          -------------------------------- */
+.contactus-section {
+    margin: 10rem 0;
+}
+.contact-leftside img {
+    width: 80%;
+    max-height: 30rem;
+    height: auto;
+    border-radius: 1rem;
+    box-shadow: 2px 3px 5px 1px rgba(86, 72, 72, 0.75);
+}
+.contact-input-field {
+    margin-bottom: 3.5rem;
+}
+.contact-rightside form .form-control {
+    border: 1px solid rgb(192, 219, 255);
+    height: 4.5rem;
+    border-radius: 0.6rem;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    font-weight: lighter;
+}
+.contact-rightside form .form-check-input {
+    width: 2rem;
+    height: 2rem;
+}
+.form-checkbox-style {
+    margin: 3rem 0;
+}
+.contact-rightside form .main_para {
+    font-size: 1.5rem;
+    color: rgb(136, 135, 136);
+    margin: 0;
+    font-weight: lighter;
+    width: 75%;
+    padding: 0 1.5rem;
+}
+
+/* -------------------------------@ Contact Section Ends
+                                          -------------------------------- */
+/* -------------------------------@ Footer Section Starts
+                                       -------------------------------- */
+footer .fontawesome-style {
+    font-size: 1.5rem;
+    color: rgb(199, 15, 199);
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: rgb(183, 210, 226);
+    display: grid;
+    place-items: center;
+    align-items: center;
+    text-align: center;
+    margin: 2.5rem auto;
+    box-shadow: 2px 3px 5px 1px rgba(86, 72, 72, 0.75);
+}
+footer .fontawesome-style:hover {
+    color: rgb(183, 210, 226);
+    background-color: rgb(199, 15, 199);
+}
+footer {
+    padding: 5rem 0;
+    background-color: rgb(16, 23, 82);
+    color: whitesmoke;
+}
+footer li {
+    list-style-type: none;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    color: whitesmoke;
+    cursor: pointer;
+    margin: 1rem 0;
+}
+footer ul li:hover {
+    color: rgb(124, 25, 218) !important;
+}
+
+/* -------------------------------@ Footer Section Ends
+                                          -------------------------------- */
+/* -------------------------------@ About Us Section Ends
+                                          -------------------------------- */
+
+/* -------------------------------@ Right Side Section Ends
+                                          -------------------------------- */
+/* -------------------------------@ Media Queries
+                                          -------------------------------- */
+@media (min-width: 1500px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1500px !important;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1400px !important;
+    }
+}
